@@ -1,0 +1,105 @@
+.ama-section {
+  background: url("../../assets/images/amaback.jpg") center no-repeat;
+  background-size: cover;
+  padding: 72px;
+}
+
+.ama-section-content {
+  align-items: center;
+  display: flex;
+}
+
+.ama-title {
+  font-size: 32px;
+  color: #2b2b2b;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 24px;
+}
+
+.ama-text-block {
+  font-size: 24px;
+  color: #f3e4dc;
+  font-family: "Montserrat", sans-serif;
+  text-align: justify;
+  font-weight: 600;
+  padding: 16px;
+  line-height: 42px;
+}
+
+.ama-logo-wrapper {
+  width: 30%;
+  height: 100%;
+  background-color: #7d7d71;
+}
+
+.ama-logo {
+  opacity: 0.9;
+  width: 320px;
+  float: left;
+  margin-right: 32px;
+}
+
+.ama-main-text {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.ama-ul-text {
+  width: 30%;
+  margin: 48px;
+  font-size: 24px;
+}
+
+li::marker {
+  color: #333953;
+  font-size: 32px;
+}
+
+ul {
+  color: #333953;
+  text-transform: uppercase;
+}
+
+li {
+  color: #f3e4dc;
+  font-weight: 600;
+  text-transform: none;
+  padding: 8px 0;
+  line-height: 32px;
+}
+
+.fingers-section {
+  display: flex;
+  max-height: 360px;
+  background-color: #333953;
+  opacity: 0.85;
+  /* блок отдельная прозрачность  */
+  align-items: center;
+  position: relative;
+}
+
+.ama-fingers-block {
+  background: url("../../assets/images/ama_fingers.jpg") center no-repeat;
+  background-size: cover;
+  width: 60%;
+  min-height: 360px;
+}
+
+.ama-fingers-text {
+  font-size: 24px;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  text-align: justify;
+  padding: 0 24px;
+  line-height: 42px;
+  width: 40%;
+  z-index: 13;
+}
+
+.fingers-second-text {
+  color: #f3e4dc;
+}

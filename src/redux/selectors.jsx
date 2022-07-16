@@ -1,3 +1,1 @@
-export const userSelector = (store) => store.login;
-
-export const searchSelector = (store) => store.search;
+export const selector = (store) => store;
